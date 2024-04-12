@@ -33,5 +33,8 @@ if __name__ == "__main__":
     
     
 plt.plot(sorted_power_W)
+plt.title('Power-Curve')
+plt.xlabel('t / s')
+plt.ylabel('P / W')
 plt.show()
-  
+plt.savefig(r"C:\code\Leistungskurve\figures\Power-Curve.png")
