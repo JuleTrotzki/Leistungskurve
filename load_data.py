@@ -17,7 +17,7 @@ def load_data(file_path):
     # Print each column
     #for column, array in column_arrays.items():
     #    print(f"{column}: {array}")
-
+    
     return column_arrays
 
 
@@ -36,5 +36,6 @@ plt.plot(sorted_power_W)
 plt.title('Power-Curve')
 plt.xlabel('t / s')
 plt.ylabel('P / W')
-plt.show()
+plt.grid(True)
 plt.savefig(r"C:\code\Leistungskurve\figures\Power-Curve.png")
+plt.show()
