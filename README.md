@@ -18,7 +18,6 @@ Code: python -m venv .venv
 
 Sie können die virtuelle Umgebung wie folgt aktivieren:
 
-```bash
 Für Unix/Linux:
 source venv/bin/activate
 
