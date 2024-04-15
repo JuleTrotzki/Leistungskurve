@@ -22,7 +22,7 @@ Für Unix/Linux:
 source venv/bin/activate
 
 Für Windows:
-.venv\Scripts\activate
+.\.venv\Scripts\activate
 
 ## Benutzung
 
